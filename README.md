@@ -24,9 +24,7 @@ client's own staff to run. I co-founded the company and architect and build the 
 | **Stack** | Next.js 16 &middot; React 19 &middot; TypeScript &middot; Supabase &middot; Postgres (schema-per-client isolation) &middot; Stripe &middot; Inngest &middot; Cloudflare R2 &middot; Tailwind v4 &middot; Vercel |
 | **Open core** | The multi-tenant patterns Eiqora relies on — Postgres-enforced tenant isolation, billing and entitlements, a transactional outbox, a hash-chained audit ledger — are worked out in the open in [multitenant-platform](https://github.com/barack-hash/multitenant-platform), a business-agnostic foundation with 224 automated checks. |
 | **Source** | Private (it is the company's product). Happy to walk through the architecture or arrange time-boxed read access for a technical screen. |
-<!-- Uncomment when the case study is public:
 | **Architecture** | Design write-up with diagrams, tenancy model, data model and testing approach, no product code: [eiqora-architecture](https://github.com/barack-hash/eiqora-architecture) |
--->
 <!-- Uncomment when the demo tenant exists:
 | **Demo** | Seeded demo tenant with fake data: <URL> — sign in with `demo@example.com` / `<password>` |
 -->
